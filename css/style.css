@@ -22,7 +22,7 @@ header a {
     height: 50vh;
     overflow: hidden;
 }
-.hero-image .image {
+.hero-image #image {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -33,6 +33,8 @@ header a {
     bottom: 0;
     left: 0;
     right: 0;
+    -webkit-transition: background-image 0.2s ease-in-out;
+    transition: background-image 0.2s ease-in-out;
 }
 .hero-image h1, .hero-image h2 {
     color: #FAF9FA;
